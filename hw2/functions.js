@@ -36,7 +36,6 @@ function loadCards() {
 function addRewiew(product, review) {
     let productsArr = getProducts();
     let counterID = localStorage.getItem(counterIdKey);
-    console.log(productsArr);
     counterID++;
     const userReview = {
         id: counterID,
@@ -47,7 +46,6 @@ function addRewiew(product, review) {
             item.reviews.push(userReview);
         }
     })
-    console.log(productsArr);
     saveProducts(productsArr)
 }
 
