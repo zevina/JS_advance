@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Add your feedback</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="functions.js" defer></script>
+  <script src="addFeedback.js" defer></script>
+</head>
+
+<body>
+  <div class="add-feedback">
+    <form action="#" class="feedback-form">
+      <input class="feedback-input form-input" placeholder="Название продукта" type="text" name="feedback-product"
+        id="feedback-product">
+      <textarea class="feedback-text form-input" placeholder="Введите Ваш отзыв..." name="feedback-text"
+        id="feedback-text" cols="30" rows="5"></textarea>
+      <button class="feedback-btn" type="submit">Добавить отзыв</button>
+      <div class="error-msg hidden">Оба поля должны быть заполнены!</div>
+    </form>
+    <a href="allFeedbacks.html" target="blank" class="all-feedback-link">Посмотреть все отзывы</a>
+  </div>
+
+</body>
+
+</html>
